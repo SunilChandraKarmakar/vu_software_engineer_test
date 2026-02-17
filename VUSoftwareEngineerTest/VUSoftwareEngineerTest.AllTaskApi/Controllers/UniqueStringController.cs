@@ -1,6 +1,6 @@
 ﻿namespace VUSoftwareEngineerTest.AllTaskApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class UniqueStringController : ControllerBase
     {

@@ -6,7 +6,7 @@
     "version": "v1"
   },
   "paths": {
-    "/api/Payment/generate-checkout": {
+    "/api/Payment/GenerateCheckoutUrls": {
       "get": {
         "tags": [
           "Payment"
@@ -18,7 +18,7 @@
         }
       }
     },
-    "/api/Subscription": {
+    "/api/Subscription/Generate": {
       "get": {
         "tags": [
           "Subscription"
@@ -67,7 +67,7 @@
         }
       }
     },
-    "/api/UniqueString": {
+    "/api/UniqueString/GetUniqueString": {
       "get": {
         "tags": [
           "UniqueString"

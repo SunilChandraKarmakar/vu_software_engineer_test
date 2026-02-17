@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VUSoftwareEngineerTest.AllTaskApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e658d03d660c8023036ef28f3a737961c9a5e5b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e91a90865cb5eda699c3e7cf41987293de8faff0")]
 [assembly: System.Reflection.AssemblyProductAttribute("VUSoftwareEngineerTest.AllTaskApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VUSoftwareEngineerTest.AllTaskApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

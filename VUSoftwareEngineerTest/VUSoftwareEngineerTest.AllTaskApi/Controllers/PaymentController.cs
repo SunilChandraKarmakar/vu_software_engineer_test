@@ -1,6 +1,6 @@
 ﻿namespace VUSoftwareEngineerTest.AllTaskApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class PaymentController : ControllerBase
     {
@@ -11,7 +11,7 @@
             _multiTournamentService = multiTournamentService;
         }
 
-        [HttpGet("generate-checkout")]
+        [HttpGet]
         public async Task<IActionResult> GenerateCheckoutUrls()
         {
             var weeklyUrl = await _multiTournamentService.GenerateCheckoutUrlAsync("WEEKLY");
