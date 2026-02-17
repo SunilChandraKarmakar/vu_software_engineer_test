@@ -2,6 +2,5 @@
   <Folder Name="/Solution Items/">
     <File Path=".editorconfig" />
   </Folder>
-  <Project Path="VUSoftwareEngineerTest.SubscriptionApi/VUSoftwareEngineerTest.SubscriptionApi.csproj" Id="80951fac-0783-44db-9df1-c9899733fa01" />
-  <Project Path="VUSoftwareEngineerTest.UniqueStringApi/VUSoftwareEngineerTest.UniqueStringApi.csproj" />
+  <Project Path="VUSoftwareEngineerTest.AllTaskApi/VUSoftwareEngineerTest.AllTaskApi.csproj" />
 </Solution>

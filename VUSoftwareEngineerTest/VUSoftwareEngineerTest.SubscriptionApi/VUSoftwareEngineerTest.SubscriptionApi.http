@@ -1,6 +1,0 @@
-@VUSoftwareEngineerTest.SubscriptionApi_HostAddress = http://localhost:5237
-
-GET {{VUSoftwareEngineerTest.SubscriptionApi_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

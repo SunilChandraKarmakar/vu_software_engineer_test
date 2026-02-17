@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\vu_software_engineer_test\\VUSoftwareEngineerTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{80951FAC-0783-44DB-9DF1-C9899733FA01}|VUSoftwareEngineerTest.SubscriptionApi\\VUSoftwareEngineerTest.SubscriptionApi.csproj|d:\\vu_software_engineer_test\\vusoftwareengineertest\\vusoftwareengineertest.subscriptionapi\\controllers\\subscriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80951FAC-0783-44DB-9DF1-C9899733FA01}|VUSoftwareEngineerTest.SubscriptionApi\\VUSoftwareEngineerTest.SubscriptionApi.csproj|solutionrelative:vusoftwareengineertest.subscriptionapi\\controllers\\subscriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34BB90DE-CCA4-A991-D50D-1DA3843A40EC}|VUSoftwareEngineerTest.AllTaskApi\\VUSoftwareEngineerTest.AllTaskApi.csproj|d:\\vu_software_engineer_test\\vusoftwareengineertest\\vusoftwareengineertest.alltaskapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34BB90DE-CCA4-A991-D50D-1DA3843A40EC}|VUSoftwareEngineerTest.AllTaskApi\\VUSoftwareEngineerTest.AllTaskApi.csproj|solutionrelative:vusoftwareengineertest.alltaskapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BB90DE-CCA4-A991-D50D-1DA3843A40EC}|VUSoftwareEngineerTest.AllTaskApi\\VUSoftwareEngineerTest.AllTaskApi.csproj|d:\\vu_software_engineer_test\\vusoftwareengineertest\\vusoftwareengineertest.alltaskapi\\services\\multitournamentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34BB90DE-CCA4-A991-D50D-1DA3843A40EC}|VUSoftwareEngineerTest.AllTaskApi\\VUSoftwareEngineerTest.AllTaskApi.csproj|solutionrelative:vusoftwareengineertest.alltaskapi\\services\\multitournamentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 42,
+          "SelectedChildIndex": 43,
           "Children": [
             {
               "$type": "Bookmark",
@@ -186,15 +190,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SubscriptionController.cs",
-              "DocumentMoniker": "D:\\vu_software_engineer_test\\VUSoftwareEngineerTest\\VUSoftwareEngineerTest.SubscriptionApi\\Controllers\\SubscriptionController.cs",
-              "RelativeDocumentMoniker": "VUSoftwareEngineerTest.SubscriptionApi\\Controllers\\SubscriptionController.cs",
-              "ToolTip": "D:\\vu_software_engineer_test\\VUSoftwareEngineerTest\\VUSoftwareEngineerTest.SubscriptionApi\\Controllers\\SubscriptionController.cs",
-              "RelativeToolTip": "VUSoftwareEngineerTest.SubscriptionApi\\Controllers\\SubscriptionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "MultiTournamentService.cs",
+              "DocumentMoniker": "D:\\vu_software_engineer_test\\VUSoftwareEngineerTest\\VUSoftwareEngineerTest.AllTaskApi\\Services\\MultiTournamentService.cs",
+              "RelativeDocumentMoniker": "VUSoftwareEngineerTest.AllTaskApi\\Services\\MultiTournamentService.cs",
+              "ToolTip": "D:\\vu_software_engineer_test\\VUSoftwareEngineerTest\\VUSoftwareEngineerTest.AllTaskApi\\Services\\MultiTournamentService.cs",
+              "RelativeToolTip": "VUSoftwareEngineerTest.AllTaskApi\\Services\\MultiTournamentService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA0wA0AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T12:08:46.805Z",
+              "WhenOpened": "2026-02-17T14:31:29.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\vu_software_engineer_test\\VUSoftwareEngineerTest\\VUSoftwareEngineerTest.AllTaskApi\\Program.cs",
+              "RelativeDocumentMoniker": "VUSoftwareEngineerTest.AllTaskApi\\Program.cs",
+              "ToolTip": "D:\\vu_software_engineer_test\\VUSoftwareEngineerTest\\VUSoftwareEngineerTest.AllTaskApi\\Program.cs",
+              "RelativeToolTip": "VUSoftwareEngineerTest.AllTaskApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T14:29:19.677Z",
               "EditorCaption": ""
             }
           ]

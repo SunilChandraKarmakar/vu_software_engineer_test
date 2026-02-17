@@ -1,0 +1,58 @@
+[
+  {
+    "ContainingType": "VUSoftwareEngineerTest.AllTaskApi.Controllers.PaymentController",
+    "Method": "GenerateCheckoutUrls",
+    "RelativePath": "api/Payment/generate-checkout",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VUSoftwareEngineerTest.AllTaskApi.Controllers.SubscriptionController",
+    "Method": "Generate",
+    "RelativePath": "api/Subscription",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "count",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IReadOnlyList\u00601[[VUSoftwareEngineerTest.AllTaskApi.Models.SubscriptionRequestModel, VUSoftwareEngineerTest.AllTaskApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VUSoftwareEngineerTest.AllTaskApi.Controllers.UniqueStringController",
+    "Method": "GetUniqueString",
+    "RelativePath": "api/UniqueString",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
