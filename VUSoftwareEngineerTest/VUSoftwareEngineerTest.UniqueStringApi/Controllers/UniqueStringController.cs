@@ -12,9 +12,11 @@
         }
 
         [HttpGet]
-        public IActionResult Get()
+        [ProducesResponseType(typeof(string), StatusCodes.Status200OK)]
+        public IActionResult GetUniqueString()
         {
-            return Ok(_service.Generate());
+            var uniqueString = _service.Generate();
+            return Ok(uniqueString);
         }
     }
 }

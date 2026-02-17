@@ -1,0 +1,136 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "Subscription API",
+    "description": "API random value inside. And return the new generated JSON as string",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Subscription": {
+      "get": {
+        "tags": [
+          "Subscription"
+        ],
+        "parameters": [
+          {
+            "name": "count",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SubscriptionRequestModel"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SubscriptionRequestModel"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SubscriptionRequestModel"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "SubscriptionRequestModel": {
+        "type": "object",
+        "properties": {
+          "amount": {
+            "type": "number",
+            "format": "double"
+          },
+          "firstPaymentIncludedInCycle": {
+            "type": "boolean"
+          },
+          "serviceId": {
+            "type": "string",
+            "nullable": true
+          },
+          "currency": {
+            "type": "string",
+            "nullable": true
+          },
+          "startDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "expiryDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "frequency": {
+            "type": "string",
+            "nullable": true
+          },
+          "subscriptionType": {
+            "type": "string",
+            "nullable": true
+          },
+          "maxCapRequired": {
+            "type": "boolean"
+          },
+          "merchantShortCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "payerType": {
+            "type": "string",
+            "nullable": true
+          },
+          "paymentType": {
+            "type": "string",
+            "nullable": true
+          },
+          "redirectUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "subscriptionRequestId": {
+            "type": "string",
+            "nullable": true
+          },
+          "subscriptionReference": {
+            "type": "string",
+            "nullable": true
+          },
+          "ckey": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Subscription"
+    }
+  ]
+}

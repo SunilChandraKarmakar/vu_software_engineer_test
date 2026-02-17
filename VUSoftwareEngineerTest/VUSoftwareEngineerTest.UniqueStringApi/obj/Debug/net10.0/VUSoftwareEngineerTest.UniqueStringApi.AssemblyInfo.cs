@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VUSoftwareEngineerTest.UniqueStringApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13c0e6c7adcd9ccebef101da9428576915c9630d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c3a31c967290d69ec699e12e1787ab151d65e53")]
 [assembly: System.Reflection.AssemblyProductAttribute("VUSoftwareEngineerTest.UniqueStringApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VUSoftwareEngineerTest.UniqueStringApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
