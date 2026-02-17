@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "VUSoftwareEngineerTest.UniqueStringApi.Controllers.UniqueStringController",
+    "Method": "Get",
+    "RelativePath": "api/UniqueString",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
